@@ -1,0 +1,977 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
+body{
+    font-family: 'Basic', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #FBDFF0;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#content{
+    float: right;
+    width: 76%;
+}
+
+
+/* 
+#sub-content{
+    float: right;
+    width: 95%;
+} */
+
+
+header {
+    display: inline;
+ }
+
+ .fancy{
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #B44C28;
+}
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #8B4513;
+    border: 4px dotted #ffffff;
+    text-align: center;
+    color: white;
+}
+
+ nav {
+    background-color: #381460;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   text-align: right;
+   padding-left: 100px;
+ 
+}
+
+nav p {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    font-size: 24px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+   
+  
+}
+
+nav img {
+    display: flex;
+    margin-left: 20px;
+	height: 75px;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+h2, h3{
+    color: white;
+    
+}
+
+.h2-excontent{
+    color: #381460;
+    text-align: center;
+}
+
+.profile header{
+    text-align: center;
+}
+
+ 
+.featured-image{
+    width: 24%;
+    /* max-height: 60px; */
+    max-height: 75px;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px;
+}
+
+.coin-image{
+    /* max-height: 60px; */
+    max-height: 60px;
+    object-fit: cover;
+    object-position: center;
+    margin: 10px;
+
+}
+
+.diamond-image{
+    max-height: 60px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    display: flex;
+
+}
+
+.gold-diamond-image{
+    /* max-height: 60px; */
+    max-height: 50px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+.metod-image{
+    width: 25%;
+    /* max-height: 60px; */
+    margin-top: 5px;
+    margin-left: 20px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    float: left;
+}
+
+.column img{
+    width: 25%;
+    /* max-height: 60px; */
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 26px;
+    height: 80px;
+}
+
+
+
+.column p{
+    margin-left: 150px;
+    display: inline-box;
+}
+
+.metod-image-gopay{
+    width: 25%;
+    /* max-height: 60px; */
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 55%;
+    object-fit: cover;
+    object-position: center;
+    float: left;
+}
+
+.card  ol{
+    display: none;
+   
+}
+
+article h4 {
+    font-size: 1.2em;
+    justify-content: left;
+    text-align: left;
+}
+
+button{
+    border-radius: 10px;
+    font-size: 1.2em;
+    width: 153px;
+    height: 158px;
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    margin: 0 10px;
+    outline: none; 
+    display: inline-block; 
+ 
+}
+
+.radio-button input {
+    display: none;
+  }
+  
+  .radio-button span {
+    border-radius: 10px;
+    font-size: 1.2em;
+    width: 153px;
+    height: 158px;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    border: none;
+    padding: 20px;
+    margin: 10px 10px;
+    outline: none; 
+    display: inline-block; 
+    background-color: rgb(239, 239, 239);
+    text-align: center;
+  }
+
+.radio-button:hover  span{
+    background-color: #F6C3E5;
+}
+
+/* metode pembayaran */
+
+.radio-button-metode input {
+    display: none;
+  }
+  
+  .radio-button-metode span {
+
+    box-shadow:  0px 4px 12px 0px rgb(194, 68, 142);
+    width: 920px;
+    height: 90px;
+    margin-top: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    object-position: left;   
+    background-color: #ffff;
+    display: flex;
+  
+  }
+
+  .radio-button-metode:hover  span{
+    background-color: #F6C3E5;
+}
+  
+  .radio-button input[name="a"]:checked + span {
+    background-color: #F6C3E5;
+  }
+  
+
+  
+  .radio-button-metode input[name="c"]:checked + span {
+    background-color: #F6C3E5;
+  }
+
+/* .button input {
+    display: none;
+}
+  
+.button span{
+    border-radius: 10px;
+    font-size: 1.2em;
+    width: 153px;
+    height: 158px;
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    margin: 0 10px;
+    outline: none; 
+    display: inline-block;
+    background-color: #ffffff; 
+}
+
+.button input[name="a"]:checked + span {
+    background-color: green;
+  } */
+
+button:hover{
+    background-color: #F6C3E5;
+}
+
+/* button beli sekarang */
+.submit-btn {
+    font-size: 14pt;
+    background: #5A45FE;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px 0px rgb(180, 178, 177);
+    cursor: pointer;
+    color: white;
+    height: 80px;
+    margin: 20px 0px 40px 5px;
+    transition: 0.25s;
+    width: 100%;
+   
+}
+
+.submit-btn:hover {
+    box-shadow: 0px 4px 18px 0px rgb(255, 189, 235);
+    background-color: #F6C3E5;
+    color: #5A45FE;
+    
+}
+
+/* button::after{
+    z-index: -1;
+    border-radius: 10px;
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 153px;
+    height: 158px;
+    background-color: #F6C3E5;
+    
+} */
+/* membuat form user zepeto */
+form {
+    font-family: basic;
+    width:1000px;
+    margin:auto;
+
+}
+
+.username {  
+    font-size: 14pt;
+    padding:8px 15px;
+    height: 50px;
+    padding: 5px; 
+    text-align: left; 
+    width: 900px; 
+    /* width: 869px; */
+    border-radius: 5px;
+    box-shadow:  0px 2px 0px rgb(255, 108, 194);
+}
+
+/* footer */
+
+.footer-distributed{
+    padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+    color: white;
+    box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+    background-color: #381460;
+ 
+}
+
+footer h3 {
+    text-align: center;
+   
+}
+
+.footer-distributed .footer-pertama,
+.footer-distributed .footer-kedua,
+.footer-distributed .footer-ketiga,
+.footer-distributed .footer-keempat,
+.footer-distributed .footer-kelima{
+	display: inline-block;
+	vertical-align: top;
+    text-align: center;
+}
+
+.footer-distributed .footer-pertama{
+	width: 20%;
+}
+
+.footer-distributed p{
+	margin: 0;
+    color:  white;
+  
+}
+
+/* The company logo */
+
+.footer-distributed .footer-pertama img{
+	width: 50%;
+
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-kedua{
+	width: 20%;
+    text-align: center;
+
+}
+
+.footer-distributed .footer-kedua a{
+	color:  white;
+	text-decoration: none;
+}
+
+/* Footer ketiga */
+
+.footer-distributed .footer-ketiga{
+	width: 20%;
+    text-align: center;
+ 
+}
+
+.footer-distributed .footer-ketiga a{
+	color:  white;
+	text-decoration: none;
+}
+
+/* Footer keempat */
+
+.footer-distributed .footer-keempat{
+	width: 20%;
+    text-align: center;
+}
+
+
+.footer-distributed .footer-keempat a{
+	color:  white;
+	text-decoration: none;;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-kelima{
+	width: 15%;
+    text-align: center;
+}
+
+
+.footer-distributed .footer-kelima a{
+	color:  white;
+	text-decoration: none;
+    padding: 5px;
+    
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer span{
+    color: white;
+    margin-left: 30px;
+    
+}
+p {
+    text-indent: 2em;
+ }
+
+.profile-img{
+    width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+   text-align: center;
+
+    
+}
+
+figcaption{
+    text-align: center;
+}
+
+.card{
+    box-shadow:  0px 4px 12px 0px rgb(194, 68, 142);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #5A45FE;
+    color: white;
+    
+}
+
+.button-metode{
+    box-shadow:  0px 4px 12px 0px rgb(194, 68, 142);
+    width: 920px;
+    height:90px;
+    margin-top: 8px;
+    border-radius: 10px;
+    object-position: left;   
+    background-color: #ffff;
+}
+
+
+.card-inline:hover{
+    background-color: #F6C3E5;
+}
+
+
+.card-help{
+    box-shadow:  0px 4px 12px 0px rgb(194, 68, 142);
+    padding: 50px;
+    margin: 5px;
+    width: 975px;
+    max-height: 800px;
+    border-radius: 10px;
+    background-color: #ffff;
+    display: inline-block; 
+    top: 0;
+    
+}
+
+
+.body-card{
+    padding: 5px;
+    top: 0;
+    font-size: 12pt;
+    display: inline-block;
+}
+
+.card-about{
+    box-shadow:  0px 4px 12px 0px rgb(194, 68, 142);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #ffff;
+    
+}
+
+.column-about{
+ 
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2;
+    text-align: justify;
+    padding-top: 10px;
+    
+    
+}
+
+.column-about ol{
+    margin-top: 50px;
+}
+
+.card-inline-about{
+    width: 940px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #AD62AA; 
+    display: flex;
+
+}
+
+
+.box-about{
+    border-radius: 10px;
+    font-size: 10pt;
+    text-align: center;
+    color: ivory;
+    width: 153px;
+    height: 170px;
+    margin: 39px;
+    outline: none; 
+    background-color: #AD62AA;
+}
+
+
+
+
+.card-inline-about-kotak .box-about{
+
+    border: none;
+    display: inline-block; 
+    left: 50%;
+     
+  
+}
+
+.card-inline-about span{
+    color: white;
+    margin-left: 250px;
+    margin-right: 10px;
+
+    padding-top: 10px;
+   
+}
+
+.sub-footer{
+    padding: 5px;
+    color: black;
+    background-color: #FBDFF0;
+    text-align: center;
+    font-weight: bold;
+}
+
+aside{
+    float: left;
+    width: 24%;
+    padding-right: 20px;
+}
+
+.container {
+    display: flex;
+   flex-wrap: wrap;
+
+
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container-row {
+    display: flex;
+ }
+
+/* invoice.html */
+
+#content-invoice{
+    width: 80%;
+    max-height: 10000px;
+    background: #5A45FE;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+
+    
+}
+
+#content-invoice p{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.card-invoice{
+
+    width: 400px;
+    left: 50%;
+    top: 100px;
+    padding: 5px;
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 20px; */
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+.card-invoice li{
+    text-decoration: none;
+}
+
+.card-invoice canvas{
+    text-align: center;
+    width: 100%;
+}
+
+.bantuan-card-invoice{
+  
+    width: 400px;
+    left: 50%;
+    top: 100px;
+    padding: 10px;
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 20px; */
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #AD62AA;
+}
+
+
+.bantuan-card-invoice p {
+    text-align: justify;
+    color: white;
+    
+}
+
+.button-back-home{
+  
+    width: 400px;
+    height: 50px;
+    left: 10%;
+    padding: 10px;
+   margin-left:300px;
+    border-radius: 50px;
+    background-color: #AD62AA;
+    
+}
+
+/* halaman konfirmasi indomaret */
+.card-content{
+    background: #5A45FE;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top:20px;
+}
+
+.card-in-content{
+    background: #ffff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card-in-content h2{
+    color: black;
+}
+
+.card-in-content span{
+    color: black;
+    font-size: 1em;
+}
+
+.card-in-content p, span{
+    text-align: justify;
+    color: grey;
+    font-size: 1.2em;
+}
+
+.back-button{
+        border-radius: 10px;
+        font-size: 1em;
+        width: 200px;
+        height: 40px;
+        border: none;
+        padding: 10px;
+        margin-top: 10px;
+        outline: none; 
+        display: inline-block; 
+        text-align: center;
+        margin-left:450px; 
+        background-color: gainsboro;
+     
+  
+}
+
+.submit-button{
+    border-radius: 10px;
+    font-size: 1em;
+    width: 200px;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none; 
+    display: inline-block; 
+    text-align: center;
+    background-color: #5A45FE;
+
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px; 
+}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column img{
+      width: 30%;
+      max-height: 50px;
+
+  }
+
+.button-continue{
+    border-radius: 20px;
+    width: 94%;
+    height: 55px;
+    border: none;
+    outline: none;
+    background-color: #5A45FE;
+    margin-left: 30px;
+}
+
+
+/* invoice shopeepay */
+.kartu{
+    box-shadow:  0px 4px 12px 0px rgb(194, 68, 142);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #5A45FE;
+}
+
+.bantuan{
+    width: 80%;
+    max-height: 10000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #5A45FE;
+}
+
+.bantuan .kotak{
+    box-shadow:  0px 0px 0px 0px rgba(179,115,59,1);
+    width: 60%;
+    margin: 0 auto;
+    height: 60px;
+    top: 100px;
+    padding: 20px;
+    font-size: 19px;
+    font-family: basic;
+    color: #381460;
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 20px; */
+    margin-bottom: 10px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+/* invoice gopay */
+.v103_181 {
+    width: 500px;
+    left: 50%;
+    top: 100px;
+
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 20px; */
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: white;
+
+    /* width: 411px;
+    height: 598px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    top: 223px;
+    left: 514px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    
+  }
+
+
+
+th{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+td{
+    text-align: right;
+    padding-left: 120px;
+    padding-bottom: 10px;
+}
+.center{
+   margin: 0 auto;
+
+} 
+
+.v103_182 {
+    width: 500px;
+    left: 50%;
+    top: 100px;
+    height: 80px;
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 20px; */
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #C7BDD3;
+}
+
+.v103_182 .print-button{
+    font-size: 1em;
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 210px;
+    border-radius: 20px;
+    background-color: #5A45FE;
+
+
+}
+
+.v103_25 {
+    width: 500px;
+    left: 50%;
+    top: 100px;
+    height: 60px;
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-top: 20px; */
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #ffff;
+}
+  
+.email-button{
+    font-size: 1em;
+    width: 150px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5A45FE;
+    cursor: pointer;
+    color: white;
+    
+}
+
+
+
+.kirim-email {  
+   
+    font-size: 14pt;
+    height: 50px;
+    border: none;
+    margin-left: 240px;
+    border-radius: 10px;
+    text-align: left; 
+    width: 340px; 
+    /* width: 869px; */
+    border-radius: 5px;
+    box-shadow:  0px 2px 0px rgb(255, 108, 194);
+    display: inline-block;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside{
+        width: 100%;
+        padding: 0;
+        float: none;
+    }
+ 
+}
+

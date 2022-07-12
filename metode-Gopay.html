@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" class="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <title>Invoice Gopay-Feleeya</title>
+</head>
+    <body>
+        
+            
+            <header>
+                
+               
+                    <nav class="nav"> 
+                        <img src="assets/image/logo-f.png" alt="logo">
+                        <p>Online Top-up Game Zepeto Terpercaya di Indonesia.</p>
+                        <ul>
+                            <li><a href="#tentangkami">Tentang Kami</a></li>
+                            <li><a href="#bantuan">Bantuan</a></li>
+                        </ul>
+                    </nav>  
+            </header>
+   
+            
+ 
+<main>
+
+        <div id="content-invoice">
+            <p>Silahkan Selesaikan Pembayaran</p>
+            <article class="card-invoice">
+                <div class="row">
+                    <div class="column">
+                        <h4 style="margin-top:20px; margin-left:20px;">Produk</h4>
+                        <li style="margin-left:20px;">ZEPETO 4630 GOLD</li>
+                        <li style="margin-left:20px;">Rp50.000,00</li>
+                        <br style="color:#381460;"><i class="fas fa-shopping-cart" style="margin-left: 20px; margin-right: 10px; display: inline; color:#381460;"></i>Zepeto</br>
+                    </div>
+                    
+                    <div class="column">
+                        <h4 style="margin-top:20px; margin-left:20px;">Pembayaran</h4>
+                        <img src="assets/image/gopay-logo.png" alt="Indomaret" style="width:120px; height:25px;">
+                        <br style="color:#381460;"><i class="fas fa-store" style="margin-left: 20px; margin-right: 10px; display: inline; color:#381460;"></i>Naver Z Corp</br>
+                    </div>
+                </div>
+                
+                
+
+            </article>
+
+            <p>Pindah KOde QR Melalui Aplikasi</p>
+
+            <article class="card-invoice">
+            <!-- <img src="assets/image/invoice-gopay.JPG" alt="invoice-gopay"> -->
+            <a href="invoice-gopay.html" class="href">
+                <canvas id="qr-Invoice"></canvas>
+            </a>
+            </article>
+
+            
+
+                
+                <button type="back" class="button-back-home">
+                    <a href="index.html" style="color:white; text-decoration: none;">KEMBALI KE HALAMAN UTAMA</a>
+                </button>
+            
+                <!-- <h4><a href="index.html" style="color: white; text-decoration:none; margin-left: 20px;">Batalkan Pesanan</a></h4> -->
+            </div>
+            
+            <h2 class="bantuan">
+                    <p style="font-size:21px;text-align: center;">Langkah-langkah Pembayaran</p>
+                    <article class="bantuan kotak">1. Login pada aplikasi GoJek kamu.</article>
+                    <article class="bantuan kotak">2. Pada menu utama, tekan tombol bayar. </article>
+                    <article class="bantuan kotak">3. Arahkan kamera kamu pada kode QR.</article>
+            </h2>
+            
+
+
+   
+    </main> 
+            <footer>
+                <article class="footer-distributed" style="height: 250px;">
+                    <h3 style="margin-top: -20px;">Online Top-up game Zepeto dengan proses instant, aman, dan mudah digunakan tanpa proses registrasi ataupun login.</h3>
+                        <div class="footer-pertama" style="margin-top: 20px;">                            
+                            <img src="assets/image/logo-feleeya.png" alt="logo-feleeya" style="margin-left: 30px; width: 60px; height: 100px;">
+                            <p style="margin-left: 10px;">Belanja aman, cepat, mudah</p>
+                        </div>
+                        
+                        <div class="footer-kedua">
+                            <span>Metode Pembayaran</span>
+                            <ul>
+                                <li>Gopay</li>
+                                <li>ShopeePay</li>
+                                <li>Indomaret</li>
+                            </ul>
+                        </div>
+
+                            
+                        <div class="footer-ketiga">
+                            <span>Bantuan</span>
+                            <ul>
+                                <li>Cara Pembelian</li>
+                                <li>Cara Pembayaran</li>
+                            </ul>
+
+                        </div>
+                           
+                        <div class="footer-keempat">
+                            <span>Kontak Kami</span>
+                            <ul>
+                                <li>Email</li>
+                                <li>WhatApps</li>
+                            </ul>
+
+                        </div>
+                            
+                        <div class="footer-kelima">
+                            <span>Media Sosial</span>
+                            <ul>
+                                <a href="#"><i class='fa fa-twitter'></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </ul>
+                        </div>
+                </article>
+                
+                <article class="sub-footer">
+                    <section>
+                        <p>Feleeya &#169; 2022</p>
+                    </section>
+                </article>   
+            </footer>
+
+            <!-- <script src="assets/js/welcome.js"></script> -->
+            <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+            <script type="text/javascript" src="assets/js/qrious.js"></script>
+            <!-- <script>
+                let qrInvoice = document.querySelector("#qr-Invoice");
+                ( function(){
+                    let qr = new QRious({
+                        elemen : qrInvoice,
+                        value: "https://www.bing.com/videos/search?q=cara+membuat+qr+code+html&docid=608027688558742041&mid=88132D4F26B072566E4B88132D4F26B072566E4B&view=detail&FORM=VIRE"
+                        , size: 300
+                    });
+                }) ();
+            </script> -->
+            <script src="assets/js/welcome.js"></script>
+            <script>
+              
+              </script>
+    </body>
+</html>
